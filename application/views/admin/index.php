@@ -169,7 +169,7 @@
               <a data-toggle="tooltip" data-placement="top" title="Lock">
                 <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
               </a>
-              <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+              <a data-toggle="tooltip" data-placement="top" title="Logout" href="<?php echo base_url('index.php/Login/logout') ?>">
                 <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
               </a>
             </div>
@@ -200,7 +200,7 @@
                       </a>
                     </li>
                     <li><a href="javascript:;">Help</a></li>
-                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                    <li><a href="<?php echo base_url('index.php/Login/logout') ?>"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                   </ul>
                 </li>
 
@@ -609,7 +609,7 @@
                       <li><i class="fa fa-bar-chart"></i><a href="#">Auto Renewal</a> </li>
                       <li><i class="fa fa-line-chart"></i><a href="#">Achievements</a>
                       </li>
-                      <li><i class="fa fa-area-chart"></i><a href="#">Logout</a>
+                      <li><i class="fa fa-area-chart"></i><a href="<?php echo base_url('index.php/Login/logout') ?>">Logout</a>
                       </li>
                     </ul>
 
